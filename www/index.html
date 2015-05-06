@@ -1,0 +1,43 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Drawer Plugin Demo</title>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/cooker.drawer.js"></script>
+<script src="css/cooker.drawer.css"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.drawer').drawer({
+    desktopEvent:'click'
+  });
+});
+</script>
+<link href="css/cooker.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<button class="drawer-toggle btn btn-outline-white">click or touch</button>
+<div class="drawer drawer-default">
+<nav class="drawer-nav" role="navigation">
+<div class="drawer-brand"><a href="./">jQuery Drawer</a> </div>
+<ul class="nav drawer-nav-list">
+<li><a href="http://www.jqueryscript.net/">Home</a></li>
+<li><a href="http://www.jqueryscript.net/jquery-plugins/">Latest jQuery Plugins</a></li>
+<li><a href="http://www.jqueryscript.net/popular/">Most Popular Plugins</a></li>
+<li><a href="http://www.jqueryscript.net/recommended/">Recommended Plugins</a></li>
+<li><a href="http://www.jqueryscript.net/blog/">Blog</a></li>
+<li><a href="http://www.jqueryscript.net/submit/" rel="nofollow">Submit Plugins &amp; News</a></li>
+</ul>
+</nav>
+</div>
+<div class="drawer-overlay">
+<h1 style="margin-top:0; padding-top:50px;">jQuery Drawer Plugin Demo</h1>
+<p style="padding-top:150px">Your content goes here</p>
+</div>
+</body>
+</html>
