@@ -2,7 +2,7 @@
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>FamilyTree</name>
     <description>
-        Aplikasi Famili Tree H. Abdullah & Maryam
+        Aplikasi Famili Tree H. Abdullah dan Maryam
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         RAR STUDIO
